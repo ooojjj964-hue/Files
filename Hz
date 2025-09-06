@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>DNSSettings</key>
+      <dict>
+        <key>DNSProtocol</key>
+        <string>HTTPS</string>
+        <key>ServerAddresses</key>
+        <array>
+          <string>1.1.1.1</string>
+          <string>1.0.0.1</string>
+          <string>2606:4700:4700::1111</string>
+          <string>2606:4700:4700::1001</string>
+        </array>
+        <key>ServerURL</key>
+        <string>https://cloudflare-dns.com/dns-query</string>
+      </dict>
+      <key>PayloadDescription</key>
+      <string>Cloudflare DNS over HTTPS</string>
+      <key>PayloadDisplayName</key>
+      <string>Cloudflare DNS (DoH)</string>
+      <key>PayloadIdentifier</key>
+      <string>com.example.cloudflare.dns</string>
+      <key>PayloadOrganization</key>
+      <string>Your Name</string>
+      <key>PayloadType</key>
+      <string>com.apple.dnsSettings.managed</string>
+      <key>PayloadUUID</key>
+      <string>6A22E0D7-456A-4E79-B18C-9DD8BA749E78</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+    </dict>
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>Cloudflare DNS Profile</string>
+  <key>PayloadIdentifier</key>
+  <string>com.example.cloudflare.profile</string>
+  <key>PayloadOrganization</key>
+  <string>Your Name</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>1C3A15FA-1A76-47F3-8F18-C730E4D45D2F</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
